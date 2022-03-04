@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <!-- index-754:31-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="description" content="kelvin- Personal Portfolio ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="business, agency, blog, cv, creative, html, one page, personal, portfolio, resume, responsive, bootstrap, photography, designer, developer">
+	
 	<meta name="author" content="root">
 
 	 <!--	Css Links
@@ -149,10 +149,10 @@
 					<ul class="navbar-nav ml-auto">
 					  <li class="nav-item"><a class="nav-link active" href="#top" data-scroll="top">Home<span class="sr-only">(current)</span></a></li>
 					  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					  <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
 					  <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
-					  <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
 					  <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>	
-			<!--		  <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>	-->
+				      <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
 					  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>	
 					</ul>
 				</div>		
@@ -174,18 +174,19 @@
                         <h1 class="cd-headline clip is-full-width text-uppercase">
                             <span class="color_white">a</span>
                             <span class="cd-words-wrapper color_default">
-                                <b class="is-visible">Software  Engineer.</b>
-								<b>Data  Analyst.</b>
+                                <b class="is-visible"> Junior Software  developer.</b>
+								<b>System Administrator.</b>
+								<b>ICT Assistant.</b>
 								<b>UI/UX Designer.</b>
+								<b>Network Administrator.</b>
                             </span>
                         </h1>
                         <p class="color_white mb_700">Very passionate about Web Development,and always striving to better myself as a developer.</p>
-                    
- 
-                    </div>
+                        
+						<a class="btn btn-default" href="#">Download CV</a></div>
                 </div>          
             </div>
-        </div>
+        </div	>
     </section>
 	<!--	End Main Banner 
 	==================================================-->
@@ -194,6 +195,7 @@
 	<section id="about" class="py_80 full_row bg_white">
 		<div class="container">
 			<div class="row">
+				<div class=	"center">
 				<div class="col-md-12 col-lg-12">
 					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">about</span>about myself</h2>
@@ -207,7 +209,7 @@
 						<div class="myself color_secondery wow animated fadeInLeft">
 							<p> I am kevin kiarie kaira.A full stack Software developer,well-organised person experienced in writing good quality code. My vast experience include building e-commerce website for wholesalers and supermarkets, Umoja expert distributers.</p>
 							
-							<p> The rigorous nature of my studies and experience has developed in me great interpersonal skills, attention to detail and motivation to meet key objective,leading to  strong expertise in sofware development life cycle from modelling to deploying.</p>
+							<p> The nature of my studies and experience has developed in me great interpersonal skills, attention to detail and motivation to meet key objective,leading to  strong expertise in sofware development life cycle from modelling to deploying.</p>
 						</div>
 						<div class="personal_info">
 							<div class="row">
@@ -215,20 +217,18 @@
 									<ul>
 										<li><span class="color_secondery">Name :</span> Kelvin kiarie kaira</li>
 										<li><span class="color_secondary">Study :</span> Dedan Kimathi University</li>
-										<li><span class="color_secondary">Degree :</span> BSC Information Technoogy</li>
-										<li><span class="color_secondery">Email :</span> kelvinkiare6@gmail.com</li>
-										<li><span class="color_secondery">Phone :</span> 0791025786</li>
-										<li><span class="color_secondery">twitter handle :</span> nash_kevoh<li>	
+										<li><span class="color_secondary">Degree :</span> BSC Information Technoogy</li>		
+										<li><span class="color_secondery">Email :</span><a href="mailto:kelvinkiare6@gmail.com"</span></li>
+										<li><span class="color_secondery">Phone :</span><a href="#">+254791025786</li>
+										<li><span class="color_secondery">twitter handle :</span> <a href= "https://twitter.com/nash_kevoh"</span></li>	
 									</ul>
 								</div>
 								<div class="col-md-12 col-lg-6">
 									<ul>
 										
 										<li><span class="color_secondery">Interest :</span>Football</li>
-										<li><span class="color_secondery">Blood Group :</span> A+</li>
-										<li><span class="color_secondery">Website :</span> A+</li>
 										<li><span class="color_secondery">Address :</span> 348-00232, Ruiru.</li>
-										<li><span class="color_secondary">linkedin :</span>"https://www.linkedin.com/in/kelvin kiarie-906b09135"</span> <li>
+										<li><span class="color_secondary">linkedin :</span><a href="https://www.linkedin.com/in/kelvin kiarie-906b09135"</span></li>
 									</ul>
 								</div>
 							</div>
@@ -249,6 +249,33 @@
 	</section>
 	<!--	End About
 	===================================================-->
+	<section id="education"class  >    
+	 <div class="education" id="education">
+               <!--<h2>Education</h2><span></span> -->
+                <div class="edu">
+                    <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+					<h4 class="w3-opacity">
+						<b>	BSc. Information Technoogy </b></h4>
+					</span>
+                    <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        Dedan Kimathi University of Science and Technoogy,Kenya Nyeri</span>
+                    <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                        Aug 2016 - November 2019</span>
+                    <p class="description">Pursued Bachelor of Science in Information Technology majoring in software development and networking.
+					Am well versed with up-to-date business practices,IT standards and government policies in ICT</p>
+                </div>
+
+                <div class="edu">
+                    <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                        Kenya Certificate of Secondary Education, K.C.S.E.</span>
+                    <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        Friends School Kamusinga, Bungoma</span>
+                    <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                        Jan 2012 - Nov 2015</span>
+                    <p class="description">Sat for my Secondary exam in 2015 attained A-(75)points.</p>
+                </div>
+            </div>
+			</div>
 	<!--	Start Skill
 	===================================================-->
 	<section id="skill" class="py_80 bg_secondery full_row">
@@ -266,7 +293,7 @@
 					<div class="col-md-12 col-lg-6">
 						<div class="about_myskill color_secondery wow animated slideInLeft">
 							<h2 class="color_primary">Some talk about my professional  skill</h2>
-							<p class="pt_15">I am a full-stack developer specializing in laravel framework and VueJs framework experienced with all stages  of development cycle. My MySQL and SQl Server knowledge are proven by Oracle and Microsoft certifications.I got extensive experience with various APIs and online payment solutions. I have a strong core Java development skils.I major with the following technologies  Windows and OpenGl.
+							<p class="pt_15">I am a full-stack developer specializing in laravel framework and java experienced with all stages  of development cycle. My MySQL and SQl Server knowledge are proven by Oracle and Microsoft certifications.I got extensive experience with online payment solutions. I have a strong core Java development skils.I major with the following technologies  Windows and OpenGl.
 							More of my skills include using Git.</p>
 							<p class="pt_15"> I take a lot of pride in writing clean well documented and easy to maintain code ,always passionate about building automation applications. visit my Linkedln profile for more details or just contact me.</p>
 						</div>
@@ -282,7 +309,7 @@
 								</div>
 							</div>
 							<div class="skill-progress wow animated slideInRight color_yellow">
-		                    <div class="prgs-bar fact-counter"> <span>SOFTWARE ENGINEER</span>
+		                    <div class="prgs-bar fact-counter"> <span>ICT OFFICER</span>
 		                        <div class="progress count wow" data-wow-duration="80ms">
 								<div class="skill-percent"><span class="count-num" data-speed="3000" data-stop="85">85</span>%</div>
 		                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemax="100"></div>
@@ -447,7 +474,7 @@
 					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
 	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">portfolio</span>Projects Completed</h2>
 	                    <span class="sub_title">Check out my below projects  Completed and others on my github.Have more than 22 projects done both for companies and individuals clients.Click this link .</span>
-		 <a href="">"https://github.com/gateru254"</a>
+		 <a href="https://github.com/gateru254"</a>
 	                </div>
 				</div>
 				
@@ -577,169 +604,8 @@
 	</section>
 	<!--	End Portfolio
 	===================================================-->
-	<!--	Start Testimonial
-	===================================================-->
-	<!--<section id="testimonial" class="py_80 full_row bg_white">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">testimonial</span>What Client Say’s</h2>
-	                    <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
-	                </div>
-				</div>
-				<div class="col-md-12 col-lg-12">
-    				<div class="testimonial_item owl-carousel wow animated slideInUp">
-    					<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/01.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<h5 class="color_primary mb_15">Aisha Lexi</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
-						</div>
-						<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/02.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<h5 class="color_primary mb_15">Kiara Paige</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
-						</div>
-						<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/03.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<h5 class="color_primary mb_15">Lucas Noah</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
-						</div>
-						<div class="member_feedback p_30 color_secondery">
-							<div class="client_img"><img src="images/testimonial/04.jpg" alt="image"></div>
-							<div class="star d-inline-block mt_30 color_default">
-								<ul>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-									<li><i class="fa fa-star" aria-hidden="true"></i></li>
-								</ul>
-							</div>
-							<h5 class="color_primary mb_15">Grace Ruby</h5>
-							<p>Sem duis platea erat feugiat vivamus nascetur sapien tortor. Sollic dictum ultric. Aliquam inceptos bibendum fringilla sodales. Molest lacin urna per aenean commodo sociosqu.</p>
-						</div>
-    				</div>
-    			</div>
-			</div>
-		</div>
-	</section>-->
-	<!--	End Testimonial
-	===================================================-->
-	<!--	Start Blog
-	===================================================-->
-	<!--<section id="blog" class="py_80 bg_secondery full_row">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="section_title_1 text-center mx-auto pb_60 wow animated slideInUp">
-	                    <h2 class="title text-uppercase"><span class="line_double mx-auto color_default">blog</span>What’s News</h2>
-	                    <span class="sub_title">Interdum a etiam sagittis vehicula porta. Massa felis eros quam blandit nulla dolor habitant. Ullamcorper quis ornare et proin pellentesque.</span>
-	                </div>
-				</div>
-				<div class="col-md-12 col-lg-12">
-					<div class="blog_grid_1 wow animated slideInUp">
-						<div class="row">
-							<div class="col-md-12 col-lg-4">
-								<div class="blog_item">
-									<div class="comments">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-										<span class="color_white">12</span>
-									</div>
-									<div class="blog_img overlay_one"><img src="images/blog/01.jpg" alt="image"></div>
-									<div class="blog_content bg_white color_secondery">
-										<div class="blog_title">
-											<a class="color_primary" href="blog-details.html"><h5>Convallis pulvinar morbi. Aenean nisi vitae metus nonummy a morbi.</h5></a>
-										</div>
-										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
-										
-										<div class="admin">
-											<img src="images/about/02.jpg" alt="image">
-											<span class="color_white">By - Rockstar Jack</span>
-										</div>
-										<div class="date float-right color_primary">20 Jan 2019</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12 col-lg-4">
-								<div class="blog_item">
-									<div class="comments">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-										<span class="color_white">18</span>
-									</div>
-									<div class="blog_img overlay_one"><img src="images/blog/02.jpg" alt="image"></div>
-									<div class="blog_content bg_white color_secondery">
-										<div class="blog_title">
-											<a class="color_primary" href="blog-details.html"><h5>Ornare fames imperdiet sapien. Iaculis dictum aptent commodo at iaculis.</h5></a>
-										</div>
-										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
-										
-										<div class="admin">
-											<img src="images/about/02.jpg" alt="image">
-											<span class="color_white">By - Rockstar Jack</span>
-										</div>
-										<div class="date float-right color_primary">18 Jan 2019</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12 col-lg-4">
-								<div class="blog_item">
-									<div class="comments">
-										<i class="fa fa-comment" aria-hidden="true"></i>
-										<span class="color_white">23</span>
-									</div>
-									<div class="blog_img overlay_one"><img src="images/blog/03.jpg" alt="image"></div>
-									<div class="blog_content bg_white color_secondery">
-										<div class="blog_title">
-											<a class="color_primary" href="blog-details.html"><h5>Vulputate donec sem purus litora varius auctor augue suscipit hac.</h5></a>
-										</div>
-										<p class="mt_15 mb_30">Dictumst integer sollicitudin venenatis ornare quam. Ligula integer luctus, blandit egestas molestie facilisi porttitor neque sodal luctus senectus lacinia euismod adipiscing element turpis dolor curae; posuere augue.</p>
-										
-										<div class="admin">
-											<img src="images/about/02.jpg" alt="image">
-											<span class="color_white">By - Rockstar Jack</span>
-										</div>
-										<div class="date float-right color_primary">17 Jan 2019</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="mx-auto text-center mt_60"><a class="btn btn-default" href="blog.html">View Blog</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>-->
-	<!--	End Blog
-	===================================================-->
-	<!--	Start Contact
+
+		<!--	Start Contact
 	===================================================-->
 	<section id="contact" class="py_80 full_row bg_white">
 		<div class="container">
@@ -759,7 +625,7 @@
 		    						<li>
 		    							<div class="contact_text">
 		    								<h6 class="font-weight-bold color_primary">Email</h6>
-		    								<span class="color_secondery">kelvinkiarie6@gmail.com</span>
+		    								<span class="color_secondery"><a href="kelvinkiarie6@gmail.com"</span>
 		    							</div>
 		    						</li>
 		    						<li>
@@ -890,5 +756,5 @@
 	</script>
 </body>
 
-<!-- index-754:31-->
+
 </html>

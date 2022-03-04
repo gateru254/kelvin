@@ -17,6 +17,9 @@ Route::get('/', function () {
 
     return view('index');
 });
+Route::get('download',function(){
+  $file = public_path()."/kelvin cv.docx";
+});
 //Route::get('/',function(){
   //return view('index5');
 //});
@@ -31,5 +34,3 @@ Route::get('/', function () {
  //{ 
    //  return view('services');
  //});
- //nav id="navbar-example2" class="navbar navbar-expand-lg navbar-light w-100"> 
- //<a class="navbar-brand" href="#top"><img class="nav-logo" src="images/logo/1.png" alt="logo"></a>
